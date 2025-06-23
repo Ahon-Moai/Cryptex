@@ -1,0 +1,963 @@
+.navbar{
+
+    display: flex;
+  
+    justify-content: space-between;
+  
+    align-items: center;
+  
+    padding-left: 40px;
+  
+    padding-right: 40px;
+  
+   
+  
+  }
+  
+  .headline{
+  
+    display: flex;
+  
+    gap: 20px;
+  
+    font-size: 17px;
+  
+    border: 1px solid #333748 ;
+  
+    overflow: hidden;
+  
+  }
+  
+  .market{
+  
+   
+  
+   
+  
+  }
+  
+  .market-head{
+  
+    display: flex;
+    
+    align-items: center;
+  
+    justify-content: center;
+  
+    padding: 20px;
+  
+    overflow: hidden;
+  
+  }
+  
+  .btn_box{
+  
+
+
+  
+    border-radius: 30px;
+  
+    border: 1px solid #333748 ;
+  
+    overflow: hidden;
+  
+  }
+  
+  .nav-left{
+  
+    display: flex;
+  
+  }
+  
+  .market-update-dtls-head{
+  
+    display:flex;
+  
+    outline: 2px solid #333748;
+  
+    justify-content: space-between;
+  
+    padding: 20px;
+  
+    align-items: center;
+  
+    font-size: 25px;
+  
+    font-weight: bold;
+  
+  }
+  
+  .dtls-box{
+  
+    padding: 30px;
+  
+  }
+  
+  .dtls-box{
+  
+    display:flex;  outline: 1px solid #333748;
+  
+    background: #17181C;
+  
+  
+  
+  
+  
+   
+  
+  }
+  
+  .dtls-box-main{
+  
+    display:flex;
+  
+    justify-content: space-between;
+  
+     align-items: center;
+  
+     flex-direction: column;
+  
+  }
+  
+  .dtls-box{
+  
+    justify-content: space-between;
+  
+  }
+  
+  .testertwo{
+  
+    gap: 80px;
+  
+    display: flex;
+  
+    align-items: center;
+  
+  
+  
+  }
+  
+  .testerone{
+  
+    gap: 10px;
+  
+    display: flex;
+  
+    align-items: center;
+  
+  }
+  
+  .Logo{
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+  }
+  
+  .nav-right{
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    display: flex;
+  
+  }
+  
+  .nav-select-one{
+  
+  
+  
+  background-color: #3874FF;
+  
+  padding: 15px;
+  
+  overflow: hidden;
+  
+   
+  
+  }
+  
+  .nav-select-one-head{
+  
+  
+  
+    background-color: #3874FF;
+  
+    padding: 15px;
+  
+   
+  
+    border-radius: 20px;
+  
+     
+  
+    }
+  
+  .nav-select{
+  
+    padding: 15px;
+  
+  }
+  
+  .nav-select:hover{
+  
+    background-color: #3874FF;
+  
+  padding: 15px;
+  
+  overflow: hidden;
+  
+  cursor: pointer;
+  
+  }
+  
+  .nav-select-head-othrs:hover{
+  
+    background-color: #3874FF;
+  
+    padding: 15px;
+  
+    overflow: hidden;
+  
+    cursor: pointer;
+  
+    border-radius: 20px;
+  
+  }
+  
+  .nav-items{
+  
+    display: flex;
+  
+    margin-left: 30px;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    font-weight: 700;
+  
+    font-size: 16px;
+  
+   
+  
+  }
+  
+  .child{
+  
+    border: 1px solid #333748;
+  
+    padding: 20px;
+  
+  }
+  
+  .child-lower-lower{
+  
+    display: flex;
+  
+    align-items: center;
+  
+  }
+  
+  .headline-child{
+  
+    gap: 20px;
+  
+  }
+  
+  .child-top{
+  
+    display: flex;
+  
+    align-items: center;
+  
+   gap: 10px;
+  
+  }
+  
+  .hero{
+  
+    align-items: center;
+  
+    justify-content: space-between;
+  
+    background-color: #17181C;
+  
+    padding-top: 10px;
+  
+   padding-left: 40px;
+  
+   padding-right: 40px;
+  
+  }
+  
+  .market-upadates{
+  
+    padding-left: 40px;
+  
+    padding-right: 40px;
+  
+    color: white;
+  
+    align-items: center;
+  
+  }
+  
+  .market-head-items{
+  
+    gap: 15px;
+  
+   
+  
+  }
+  
+  .market-updates-head{
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+  }
+  
+  .child:hover{
+  
+    background: #23252F;
+  
+  }
+  
+  #ham-icon{
+  
+    display: none;
+  
+  }
+  
+  .bd{
+  
+    background: #f2ecec;
+  
+  }
+  
+  .wallet-btn{
+  
+    border: solid 1px #fff;
+  
+    border-radius: 20px;
+  
+  }
+  
+  .wallet-btn:hover{
+  
+    background-color: #3874FF;
+  
+    border: solid 1px #3874FF;
+  
+    color: white;
+  
+  }
+  .market-headline{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 56px;
+    color: white;
+  }
+  
+  @media (max-width:600px) {
+  
+    .nav-items{
+  
+      display: none;
+  
+    }
+  
+    .wallet-btn{
+  
+      display: none;
+  
+    }
+  
+    .dtls-box-main{
+  
+      margin-top: 10px;
+  
+    }
+  
+    .market-update-dtls-head{
+  
+      margin-top: 500px;
+  
+      display: flex;
+      
+     padding: 10px;
+  
+     
+  
+     
+  
+    }
+  
+    .testerone{
+  
+     
+  
+    }
+  
+    .testerthree{
+  
+      display: none;
+  
+    }
+  
+    .hidder{
+  
+      display: none;
+  
+    }
+  
+  
+  
+    #ham-icon{
+  
+      display: inline;
+  
+    }
+  
+    .headline{
+  
+      flex-wrap:wrap;
+  
+     
+  
+    }
+  
+    .nav-select:hover{
+  
+      background-color: #3874FF;
+  
+    padding: 12px;
+  
+    overflow: hidden;
+  
+    cursor: pointer;
+  
+    }
+   
+  
+    .nav-select{
+  
+      padding: 12px;
+  
+    }
+  
+    .btn_box{
+  
+      margin-top: 50px;
+  
+    }
+  
+    .market-upadates{
+  
+      padding-left: 10px;
+  
+      padding-right: 10px;
+  
+    }
+  
+  }
+  
+  .navbar{
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    align-items: center;
+  
+    padding-left: 40px;
+  
+    padding-right: 40px;
+  
+   
+  
+  }
+  
+  .headline{
+  
+    display: flex;
+  
+    gap: 20px;
+  
+    font-size: 17px;
+  
+    border: 1px solid #333748 ;
+  
+    overflow: hidden;
+  
+  }
+  
+  .market{
+  
+   
+  
+   
+  
+  }
+  
+  .market-head{
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    padding: 20px;
+  
+    overflow: hidden;
+  
+  }
+  
+  .btn_box{
+  
+    
+  
+    border-radius: 30px;
+  
+    border: 1px solid #333748 ;
+  
+    overflow: hidden;
+  
+  }
+  
+  .nav-left{
+  
+    display: flex;
+  
+  }
+  
+  .market-update-dtls-head{
+  
+    display:flex;
+  
+    outline: 2px solid #333748;
+  
+    justify-content: space-between;
+  
+    padding: 20px;
+  
+    align-items: center;
+  
+    font-size: 25px;
+  
+    font-weight: bold;
+  
+  }
+  
+  .dtls-box{
+  
+    padding: 30px;
+  
+  }
+  
+  .dtls-box{
+  
+    display:flex;  outline: 1px solid #333748;
+  
+    background: #17181C;
+  
+  
+  
+  
+  
+   
+  
+  }
+  
+  .dtls-box-main{
+  
+    display:flex;
+  
+    justify-content: space-between;
+  
+     align-items: center;
+  
+     flex-direction: column;
+  
+  }
+  
+  .dtls-box{
+  
+    justify-content: space-between;
+  
+  }
+  
+  .testertwo{
+  
+    gap: 80px;
+  
+    display: flex;
+  
+    align-items: center;
+  
+  
+  
+  }
+  
+  .testerone{
+  
+    gap: 10px;
+  
+    display: flex;
+  
+    align-items: center;
+  
+  }
+  
+  .Logo{
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+  }
+  
+  .nav-right{
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    display: flex;
+  
+  }
+  
+  .nav-select-one{
+  
+  
+  
+  background-color: #3874FF;
+  
+  padding: 15px;
+  
+  overflow: hidden;
+  
+   
+  
+  }
+  
+  .nav-select-one-head{
+  
+  
+  
+    background-color: #3874FF;
+  
+    padding: 15px;
+  
+   
+  
+    border-radius: 20px;
+  
+     
+  
+    }
+  
+  .nav-select{
+  
+    padding: 15px;
+  
+  }
+  
+  .nav-select:hover{
+  
+    background-color: #3874FF;
+  
+  padding: 15px;
+  
+  overflow: hidden;
+  
+  cursor: pointer;
+  
+  }
+  
+  .nav-select-head-othrs:hover{
+  
+    background-color: #3874FF;
+  
+    padding: 15px;
+  
+    overflow: hidden;
+  
+    cursor: pointer;
+  
+    border-radius: 20px;
+  
+  }
+  
+  .nav-items{
+  
+    display: flex;
+  
+    margin-left: 30px;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    font-weight: 700;
+  
+    font-size: 16px;
+  
+   
+  
+  }
+  
+  .child{
+  
+    border: 1px solid #333748;
+  
+    padding: 20px;
+  
+  }
+  
+  .child-lower-lower{
+  
+    display: flex;
+  
+    align-items: center;
+  
+  }
+  
+  .headline-child{
+  
+    gap: 20px;
+  
+  }
+  
+  .child-top{
+  
+    display: flex;
+  
+    align-items: center;
+  
+   gap: 10px;
+  
+  }
+  
+  .hero{
+  
+    align-items: center;
+  
+    justify-content: space-between;
+  
+    background-color: #17181C;
+  
+    padding-top: 10px;
+  
+   padding-left: 40px;
+  
+   padding-right: 40px;
+  
+  }
+  
+  .market-upadates{
+  
+    padding-left: 40px;
+  
+    padding-right: 40px;
+  
+    color: white;
+  
+    align-items: center;
+  
+  }
+  
+  .market-head-items{
+  
+    gap: 15px;
+  
+   
+  
+  }
+  
+  .market-updates-head{
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+  }
+  
+  .child:hover{
+  
+    background: #23252F;
+  
+  }
+  
+  #ham-icon{
+  
+    display: none;
+  
+  }
+  
+  .bd{
+  
+    background: #f2ecec;
+  
+  }
+  
+  .wallet-btn{
+  
+    border: solid 1px #fff;
+  
+    border-radius: 20px;
+  
+  }
+  
+  .wallet-btn:hover{
+  
+    background-color: #3874FF;
+  
+    border: solid 1px #3874FF;
+  
+    color: white;
+  
+  }
+  
+  @media (max-width:600px) {
+  
+    .nav-items{
+  
+      display: none;
+  
+    }
+  
+    .wallet-btn{
+  
+      display: none;
+  
+    }
+  
+    .dtls-box-main{
+  
+      margin-top: 10px;
+  
+    }
+  
+    .market-update-dtls-head{
+  
+      margin-top: 500px;
+  
+      display: flex;
+  
+     padding: 10px;
+  
+     
+  
+     
+  
+    }
+  
+    .testerone{
+  
+     
+  
+    }
+  .dtls-box-main{
+    display: none;
+  }
+    .testerthree{
+  
+      display: none;
+  
+    }
+    .market-update-dtls-head{
+      display: none;
+    }
+  .market-upadates{
+    display: none;
+  }
+    .hidder{
+  
+      display: none;
+  
+    }
+    .market{
+    
+    }
+  
+  .MD{
+    display: block;
+  }
+  
+    #ham-icon{
+  
+      display: inline;
+  
+    }
+  
+    .headline{
+  
+      flex-wrap:wrap;
+  
+     
+  
+    }
+  
+    .nav-select:hover{
+  
+      background-color: #3874FF;
+  
+    padding: 12px;
+  
+    overflow: hidden;
+  
+    cursor: pointer;
+  
+    }
+  
+    .nav-select{
+  
+      padding: 12px;
+  
+    }
+  
+    .btn_box{
+      
+      margin-top: 50px;
+  
+    }
+  
+    .market-upadates{
+  
+      padding-left: 10px;
+      
+      padding-right: 10px;
+  
+    }
+  
+  }
+  
+
+
+  .process-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+  }
+
+  .process-part{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
