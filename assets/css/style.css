@@ -206,7 +206,7 @@
   .nav-select:hover{
   
     background-color: #3874FF;
-  
+  transition: 200ms ease;
   padding: 15px;
   
   overflow: hidden;
@@ -674,6 +674,8 @@
   .nav-select{
   
     padding: 15px;
+    transition: 300ms ease-in-out;
+  
   
   }
   
@@ -683,6 +685,7 @@
   
   padding: 15px;
   
+
   overflow: hidden;
   
   cursor: pointer;
@@ -1027,4 +1030,24 @@
 
 .footer{
   outline: 2px solid #333748;
+}
+
+@media (min-width: 1920px) {
+.hero{
+  padding: 120px;
+}
+.navbar{
+ padding-left: 120px;
+ padding-right: 120px;
+}
+#pc-text{
+  font-size:100px;
+  width: 720px;
+}
+#pc-img{
+  width: 620px;
+}
+#pc-para{
+ 
+}
 }
