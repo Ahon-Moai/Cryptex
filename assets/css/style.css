@@ -822,7 +822,18 @@
     border-radius: 20px;
   
   }
+  .download-btn{
+    border: solid 1px #fff;
   
+    border-radius: 20px;
+  }
+  .download-btn:hover{
+    background-color: #3874FF;
+  
+    border: solid 1px #3874FF;
+  
+    color: white;
+  }
   .wallet-btn:hover{
   
     background-color: #3874FF;
@@ -833,12 +844,21 @@
   
   }
   
-  @media (max-width:600px) {
-  
+  @media (max-width:620px) {
+    
+    .process-part{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+   
     .nav-items{
   
       display: none;
   
+    }
+    .process-box{
+
     }
   
     .wallet-btn{
@@ -894,9 +914,15 @@
     .market{
     
     }
-  
+  #test{
+   
+  }
   .MD{
     display: block;
+  }
+  #process-part-mob{
+    display: flex;
+    flex-direction: column;
   }
   
     #ham-icon{
@@ -904,7 +930,7 @@
       display: inline;
   
     }
-  
+    
     .headline{
   
       flex-wrap:wrap;
@@ -924,12 +950,16 @@
     cursor: pointer;
   
     }
+    
   
     .nav-select{
   
       padding: 12px;
   
     }
+  .process-part{
+   
+  }
   
     .btn_box{
       
@@ -946,7 +976,22 @@
     }
   
   }
+  .process-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
   
+  .process-box{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
 
 
   .process-head{
@@ -961,3 +1006,25 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+
+  .process-lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+.whatis-test{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+
+}
+.whatis-main{
+
+}
+
+.footer{
+  outline: 2px solid #333748;
+}
