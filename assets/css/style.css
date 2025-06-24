@@ -13,21 +13,87 @@
    
   
   }
-  
+  .new-market-box{
+    display: flex;
+   
+    
+  }
+  .selection{
+    padding: 10px;
+    transition: 200ms ease;
+    cursor: pointer;
+  }
+
+  .selection-default{
+    background-color: #3874FF;
+    padding: 10px;
+    border-radius: 10px;
+    
+  }
+  .selection:hover{
+    background-color: #3874FF;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .new-main-box{
+   position: absolute;
+   bottom:  -50%;
+   outline: 2px solid #23252F;
+   border-radius: 20px;
+   overflow: hidden;
+   transition: 300ms ease;
+   
+  }
+  .new-main-box{
+    
+  }
+.nmb{
+  transition: 200ms ease;
+  cursor: pointer;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 30px;
+}
+.nmb:hover{
+  background: #23252F;
+}
+  @media (max-width:600px){
+    .new-main-box{
+      position: absolute;
+      bottom: -140%;
+      outline: 2px solid #23252F;
+      border-radius: 20px;
+      overflow: hidden;
+      
+      
+     }
+  }
+  .heading-of-new-main-box{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 10px;
+    outline: 2px solid #23252F;
+    overflow: hidden;
+    font-size: 17px;
+  }
   .headline{
   
     display: flex;
   
     gap: 20px;
-  
+    
     font-size: 17px;
   
     border: 1px solid #333748 ;
   
-    overflow: hidden;
+    overflow: auto;
   
   }
-  
+
   .market{
   
    
@@ -53,13 +119,13 @@
   .btn_box{
   
 
-
-  
+    position: absolute;
+    top: -190%;
     border-radius: 30px;
   
     border: 1px solid #333748 ;
   
-    overflow: hidden;
+    overflow: auto;
   
   }
   
@@ -892,22 +958,22 @@
   
     .testerone{
   
-     
+   
   
     }
   .dtls-box-main{
-    display: none;
+   
   }
     .testerthree{
   
-      display: none;
+     
   
     }
     .market-update-dtls-head{
-      display: none;
+     
     }
   .market-upadates{
-    display: none;
+   
   }
     .hidder{
   
