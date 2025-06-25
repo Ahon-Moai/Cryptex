@@ -312,7 +312,7 @@ border-radius: 30px;
    
   
   }
-  
+ 
   .child{
   
     border: 1px solid #333748;
@@ -320,6 +320,7 @@ border-radius: 30px;
     padding: 20px;
   
   }
+
   
   .child-lower-lower{
   
@@ -469,6 +470,10 @@ border-radius: 30px;
      
   
     }
+    .real-market-box{
+      overflow-x:scroll;
+      
+    }
   
     .testerone{
   
@@ -554,6 +559,7 @@ border-radius: 30px;
    
   
   }
+
   
   .headline{
   
@@ -710,7 +716,7 @@ border-radius: 30px;
   .nav-select-one{
   
   
-  
+    white-space: nowrap;
   background-color: #3874FF;
   
   padding: 15px;
@@ -719,6 +725,29 @@ border-radius: 30px;
   
    
   
+  }
+  .market-status-new-head-two{
+    white-space: nowrap;
+  }
+  .market-status-new-head{
+    border-bottom: 2px solid #fff;
+   
+    white-space: nowrap;
+  }
+  .market-status-real-dtls{
+    border-bottom: 2px solid #23252F; 
+    padding-bottom: 10px;
+  }
+  .market-status-real-dtls{
+   
+    white-space: nowrap;
+  }
+  .nav-select-one-market{
+    background-color: #3874FF;
+   
+    padding: 15px;
+    white-space: nowrap;
+   
   }
   
   .nav-select-one-head{
@@ -919,6 +948,10 @@ border-radius: 30px;
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+    .navbar{
+      padding-left: 10px;
+      padding-right: 10px;
     }
    
     .nav-items{
