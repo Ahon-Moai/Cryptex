@@ -121,14 +121,18 @@ overflow-x:hidden;
     padding-top: 120px;
     margin: 0 auto;
     display: flex;
+    padding-bottom: 120px;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
 }
+.intro{
+    padding-top: 120px;
+}
 .intro-container{
     max-width: 1250px;   
-    padding-top: 120px;
     margin: 0 auto;
+     
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -477,6 +481,10 @@ background: hsl(228, 9%, 10%);
     font-size: 4rem;
     font-weight: 700;
 }
+.intro-container{
+    display: flex;
+    flex-direction: row;
+}
 .market-head p{
     text-decoration: underline;
 }
@@ -490,6 +498,7 @@ background: hsl(228, 9%, 10%);
     max-width: 100vw; /* prevent overflowing the viewport width */
   
 }
+
 .how{
     background: hsl(228, 9%, 10%);
    
@@ -762,6 +771,7 @@ color: white;
 }
 .whatis{
     padding-bottom: 120px;
+   
 }
 
 .process-box{
@@ -816,6 +826,10 @@ color: white;
     .connect-line{
         display: none;
     }
+    .intro-container{
+        max-width: 100%;
+        padding: 0 15px;
+    }
      
 
     .whatis {
@@ -828,6 +842,12 @@ color: white;
         display: flex;
         flex-direction: column;
     }
+    .intro-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
     .hidder{
         display: none;
     }
