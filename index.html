@@ -4,424 +4,610 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-<link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
-    <section class="navbar relative px-3 py-3 bg-[#131315] text-white h-[60px] w-full">
+   <section class="nav-container">
+    <div class="navbar">
+        <div class="nav-left">
+            <img src="./assets/images/logo.svg" height="45" width="45" alt="">
+            <p class="logo-text">Cryptext</p>
+            <div class="nav-items">
+                <p class="nav-select-one">Homepage</p>
+                <p class="nav-select">Buy Crypto</p>
+                <p class="nav-select">Markets</p>
+                <p class="nav-select">Sell Crypto</p>
+                <p class="nav-select">Blog</p>
+                <p class="nav-select">BITUSDT</p>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="wallet-btn">Wallet</button>
+            <i id="menu-icon" class="fa-solid fa-bars" style="color: #ffffff;"></i>
+        </div>
+
+
+    </div>
+</section>
+<section class="hero-container-main">
+
+    <div class="hero-container">
+        <div class="hero-text-container">
+            <p class="hero-header">Buy & Sell Digital Assets In The Cryptex</p>
+            <p class="hero-para">Coin Cryptex is the easiest, safest, and fastest way to buy & sell crypto asset exchange.</p>
+            <button class="blue-primary">Get Started Now</button>
+        </div>
+        <img class="hero-banner" src="./assets/images/hero-banner.png" alt="">
+       </div>
+</section>
+<section class="trend-container-main">
+    <div class="trend-container">
        
-            <div class="nav-left">
-                <div class="Logo">
-                    <img class="w-[40px]" src="favicon.svg" alt="" />
-                   <p class="px-1 text-2xl font-bold">Cryptext</p>
-                </div>
-                <div class="nav-items hidden sm:inline sm:flex">
-                    <p class="nav-select-one">Homepage</p>
-                    <p class="nav-select">Buy Crypto</p>
-                    <p class="nav-select">Markets</p>
-                    <p class="nav-select">Sell Crypto</p>
-                    <p class="nav-select">Blog</p>
-                </div>
+     <div class="main-box">
+        <div class="trend-text-container">
+            <p class="trend-text-one">Crypto</p>
+            <p class="trend-text-selection">DeFi</p>
+            <p class="trend-text-selection">BSC</p>
+            <p class="trend-text-selection">NFT</p>
+            <p class="trend-text-selection">Polkadot</p>
+            <p class="trend-text-selection">Solana</p>
+            <p class="trend-text-selection">Opensea</p>
+            <p class="trend-text-selection">Makersplace</p>
+        </div>
+        <div class="main-main-box">
+          
+           <div class="box">
+            <div class="box-upper">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="coin-name">Bitcoin</p>
+                <p class="coin-identity">BTC/USD</p>
+            </div> 
+            <p class="coin-price">USD 46,168.95</p>
+            <div class="box-lower">
+                <p class="coin-price-two">36,641.20</p>
+                <p class="coin-status">-0.79%</p>
             </div>
-            <div class="nav-right flex">
-                <i id="ham-icon" class="sm:hidden fa-sharp text-2xl fa-solid fa-bars " style="color: #fff;"></i>
-                <button class="wallet-btn px-4 py-1 ">Wallet</button>
+           </div>
+           <div class="box">
+            <div class="box-upper">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="coin-name">Bitcoin</p>
+                <p class="coin-identity">BTC/USD</p>
+            </div> 
+            <p class="coin-price">USD 46,168.95</p>
+            <div class="box-lower">
+                <p class="coin-price-two">36,641.20</p>
+                <p class="coin-status">-0.79%</p>
             </div>
-     
-    </section>
-    <section class=" hero px-3 py-3 pt-[70px] pb-[150px] flex flex-col sm:flex-row">
-        <div class="hero-left pt-[70px]">
-            <h1 id="pc-text" class="text-3xl text-white font-bold w-[330px] sm:w-[620px] sm:text-6xl">Buy & Sell Digital Assets In The Cryptex.</h1>
-        <p id="pc-para" class="text-[#B1B5B8] mt-6 text-lg sm:w-[450px] w-[320px]">Coin Cryptex is the easiest, safest, and fastest way to buy & sell crypto asset exchange.</p>
-        <button class="text-white bg-[#3874FF] px-5 rounded-lg py-3 mt-8">Get Started Now</button>
-        </div>
-        <div class="hero-right">
-            <img id="pc-img" class="pt-[50px] sm:w-[520px]" src="./assets/images/hero-banner.png" alt="">
-        </div>
-    </section>
-   
- <section class="new-market-box justify-center px-5 py-5   bg-[#131315]">
-
-        <div class="new-main-box rounded-lg sm:w-[1200px]    w-[350px] absolute bg-[#1a1d21] ">
-
-            <div class="heading-of-new-main-box text-white flex-wrap font-bold">
-                <p class="selection-default">Crypto</p>
-                <p class="selection">DeFi</p>
-                <p class="selection">BSC</p>
-                <p class="selection">NFT</p>
-                <p class="selection">Metaverse</p>
-                <p class="selection">Polkadot</p>
-                <p class="selection">Solana</p>
-                <p class="selection">Opensea</p>
-                <p class="selection">Makersplace</p>
+           </div>
+           <div class="box">
+            <div class="box-upper">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="coin-name">Bitcoin</p>
+                <p class="coin-identity">BTC/USD</p>
+            </div> 
+            <p class="coin-price">USD 46,168.95</p>
+            <div class="box-lower">
+                <p class="coin-price-two">36,641.20</p>
+                <p class="coin-status">-0.79%</p>
             </div>
-<div class="new-market-box-main-box flex flex-col justify-between sm:flex-row gap-1 py-3 px-3 mt-3">
-    <div class="nmb px-4 py-4 text-white    ">
-        <div class="nmb-upper flex gap-2 items-center flex-row">
-            <img class="w-[35px]" src="./assets/images/coin-1.svg" alt="">
-            <p class="font-medium text-[19px]">Bitcoin</p>
-            <p class="text-gray-400">BTC/USD</p>
-        </div>
-        <p class="text-3xl font-bold py-5">USD 46,168.95</p>
-        <div class="nmb-lower flex gap-3 flex-row">
-            <p class="text-[17px] text-gray-400">36,641.20</p>
-            <p class="bg-[#AA4A44] px-3">-0.79</p>
-        </div>
-    </div>
-    <div class="nmb px-3 py-4 bg-[#23252F] text-white    ">
-        <div class="nmb-upper flex gap-2 items-center flex-row">
-            <img class="w-[35px]" src="./assets/images/coin-1.svg" alt="">
-            <p class="font-medium text-[19px]">Bitcoin</p>
-            <p class="text-gray-400">BTC/USD</p>
-        </div>
-        <p class="text-3xl font-bold py-5">USD 46,168.95</p>
-        <div class="nmb-lower flex gap-3 flex-row">
-            <p class="text-[17px] text-gray-400">36,641.20</p>
-            <p class="bg-[#AA4A44] px-3">-0.79</p>
-        </div>
-    </div>
-    <div class="nmb px-3 py-4 text-white    ">
-        <div class="nmb-upper flex gap-2 items-center flex-row">
-            <img class="w-[35px]" src="./assets/images/coin-1.svg" alt="">
-            <p class="font-medium text-[19px]">Bitcoin</p>
-            <p class="text-gray-400">BTC/USD</p>
-        </div>
-        <p class="text-3xl font-bold py-5">USD 46,168.95</p>
-        <div class="nmb-lower flex gap-3 flex-row">
-            <p class="text-[17px] text-gray-400">36,641.20</p>
-            <p class="bg-[#AA4A44] px-3">-0.79</p>
-        </div>
-    </div>
-    <div class="nmb px-3 py-4 text-white    ">
-        <div class="nmb-upper flex gap-2 items-center flex-row">
-            <img class="w-[35px]" src="./assets/images/coin-1.svg" alt="">
-            <p class="font-medium text-[19px]">Bitcoin</p>
-            <p class="text-gray-400">BTC/USD</p>
-        </div>
-        <p class="text-3xl font-bold py-5">USD 46,168.95</p>
-        <div class="nmb-lower flex gap-3 flex-row">
-            <p class="text-[17px] text-gray-400">36,641.20</p>
-            <p class="bg-[#AA4A44] px-3">-0.79</p>
-        </div>
-    </div>
-</div>
-
-        </div>
-
-
-
-    </section>
-<section class="real-market-box px-5 py-5 pb-[200px] sm:pt-[50px] pt-[850px] bg-[#131315]">
-
-<div class="real-market-box-head-one items-center text-white  sm:mt-[450px] flex flex-row justify-between  sm:pl-[40px] sm:pr-[40px]">
-    <h1 class="font-bold text-3xl sm:text-5xl">
-        Market Update
-    </h1>
-    <p class="underline text-sm font-medium ">See All Coins</p>
-</div>
-<div class="real-market-box-nav text-md  flex gap-10 text-white font-bold sm:pl-[40px] sm:pr-[40px] mt-[30px] flex-row">
-    <p class=" nav-select-one-market">View all</p>
-    <p class=" nav-select p-[20px]">Metaverse</p>
-    <p class=" nav-select p-[20px]">Enterainment</p>
-    <p class=" nav-select p-[20px]">Energy</p>
-    <p class=" nav-select p-[20px]">NFT</p>
-    <p class=" nav-select p-[20px]">Gaming</p>
-    <p class=" nav-select p-[20px]">Music</p>
-</div>
-<div class="market-status-new-head text-xl sm:w-full w-[1200px] ]  mt-[40px]  flex text-white font-bold flex-row justify-between items-center">
-   <div class="market-status-new-head-one gap-10  flex flex-row ">
-  
-    <p>Name</p>
-   </div>
-    <div class="market-status-new-head-two  gap-[90px] flex flex-row  ">
-    <p>Last price</p>
-    <p>24h %</p>
-    <p>Market Cap</p>
-    </div>
-    <div class="market-status-new-head-three gap-4 flex flex-row ">
-
-        <p>Last 7 Days</p>
-    </div>
-</div>
-    <div class="market-status-real-dtls  text-xl sm:w-full w-[1200px]  mt-[30px]  flex text-white font-bold flex-row justify-between items-center text-white  ">
-        <div class="market-status-new-head-one items-center market-status-new-head-one gap-3 sm:gap-10  flex flex-row ">
-           
-            <div class="coin-logo items-center gap-2 flex flex-row">
-                <img class="w-[30px]" src="./assets/images/coin-1.svg" alt="">
-                <p>Bitcoin</p>
+           </div>
+           <div class="box">
+            <div class="box-upper">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="coin-name">Bitcoin</p>
+                <p class="coin-identity">BTC/USD</p>
+            </div> 
+            <p class="coin-price">USD 46,168.95</p>
+            <div class="box-lower">
+                <p class="coin-price-two">36,641.20</p>
+                <p class="coin-status">-0.79%</p>
             </div>
-            
-        </div>
-        <div class="market-status-new-head-two gap-[90px]  flex flex-row">
-            <p>$56,623.54</p>
-            <p class="font-light text-green-500">+1.45%</p>
-            <p>$880,423,640,582</p>
-        </div>
-        <div class="market-status-new-head-three  flex flex-row">
-            <img src="./assets/images/chart-1.svg" alt="">
-            
+           </div>
         </div>
     </div>
-    <div class="market-status-real-dtls  text-xl sm:w-full w-[1200px]  mt-[30px]  flex text-white font-bold flex-row justify-between items-center text-white  ">
-        <div class="market-status-new-head-one items-center market-status-new-head-one gap-3 sm:gap-10  flex flex-row ">
-           
-            <div class="coin-logo items-center gap-2 flex flex-row">
-                <img class="w-[30px]" src="./assets/images/coin-1.svg" alt="">
-                <p>Bitcoin</p>
-            </div>
-            
-        </div>
-        <div class="market-status-new-head-two gap-[90px]  flex flex-row">
-            <p>$56,623.54</p>
-            <p class="font-light text-green-500">+1.45%</p>
-            <p>$880,423,640,582</p>
-        </div>
-        <div class="market-status-new-head-three  flex flex-row">
-            <img src="./assets/images/chart-1.svg" alt="">
-            
-        </div>
-    </div>
-    <div class="market-status-real-dtls  text-xl sm:w-full w-[1200px]  mt-[30px]  flex text-white font-bold flex-row justify-between items-center text-white  ">
-        <div class="market-status-new-head-one items-center market-status-new-head-one gap-3 sm:gap-10  flex flex-row ">
-           
-            <div class="coin-logo items-center gap-2 flex flex-row">
-                <img class="w-[30px]" src="./assets/images/coin-1.svg" alt="">
-                <p>Bitcoin</p>
-            </div>
-            
-        </div>
-        <div class="market-status-new-head-two gap-[90px]  flex flex-row">
-            <p>$56,623.54</p>
-            <p class="font-light text-green-500">+1.45%</p>
-            <p>$880,423,640,582</p>
-        </div>
-        <div class="market-status-new-head-three  flex flex-row">
-            <img src="./assets/images/chart-1.svg" alt="">
-            
-        </div>
-    </div>
-    <div class="market-status-real-dtls  text-xl sm:w-full w-[1200px]  mt-[30px]  flex text-white font-bold flex-row justify-between items-center text-white  ">
-        <div class="market-status-new-head-one items-center market-status-new-head-one gap-3 sm:gap-10  flex flex-row ">
-           
-            <div class="coin-logo items-center gap-2 flex flex-row">
-                <img class="w-[30px]" src="./assets/images/coin-1.svg" alt="">
-                <p>Bitcoin</p>
-            </div>
-            
-        </div>
-        <div class="market-status-new-head-two gap-[90px]  flex flex-row">
-            <p>$56,623.54</p>
-            <p class="font-light text-green-500">+1.45%</p>
-            <p>$880,423,640,582</p>
-        </div>
-        <div class="market-status-new-head-three  flex flex-row">
-            <img src="./assets/images/chart-1.svg" alt="">
-            
-        </div>
-    </div>
-    <div class="market-status-real-dtls  text-xl sm:w-full w-[1200px]  mt-[30px]  flex text-white font-bold flex-row justify-between items-center text-white  ">
-        <div class="market-status-new-head-one items-center market-status-new-head-one gap-3 sm:gap-10  flex flex-row ">
-           
-            <div class="coin-logo items-center gap-2 flex flex-row">
-                <img class="w-[30px]" src="./assets/images/coin-1.svg" alt="">
-                <p>Bitcoin</p>
-            </div>
-            
-        </div>
-        <div class="market-status-new-head-two gap-[90px]  flex flex-row">
-            <p>$56,623.54</p>
-            <p class="font-light text-green-500">+1.45%</p>
-            <p>$880,423,640,582</p>
-        </div>
-        <div class="market-status-new-head-three  flex flex-row">
-            <img src="./assets/images/chart-1.svg" alt="">
-            
-        </div>
-    </div>
-    <div class="market-status-real-dtls  text-xl sm:w-full w-[1200px]  mt-[30px]  flex text-white font-bold flex-row justify-between items-center text-white  ">
-        <div class="market-status-new-head-one items-center market-status-new-head-one gap-3 sm:gap-10  flex flex-row ">
-           
-            <div class="coin-logo items-center gap-2 flex flex-row">
-                <img class="w-[30px]" src="./assets/images/coin-1.svg" alt="">
-                <p>Bitcoin</p>
-            </div>
-            
-        </div>
-        <div class="market-status-new-head-two gap-[90px]  flex flex-row">
-            <p>$56,623.54</p>
-            <p class="font-light text-green-500">+1.45%</p>
-            <p>$880,423,640,582</p>
-        </div>
-        <div class="market-status-new-head-three  flex flex-row">
-            <img src="./assets/images/chart-1.svg" alt="">
-            
-        </div>
-    </div>
-    <div class="market-status-real-dtls  text-xl sm:w-full w-[1200px]  mt-[30px]  flex text-white font-bold flex-row justify-between items-center text-white  ">
-        <div class="market-status-new-head-one items-center market-status-new-head-one gap-3 sm:gap-10  flex flex-row ">
-           
-            <div class="coin-logo items-center gap-2 flex flex-row">
-                <img class="w-[30px]" src="./assets/images/coin-1.svg" alt="">
-                <p>Bitcoin</p>
-            </div>
-            
-        </div>
-        <div class="market-status-new-head-two gap-[90px]  flex flex-row">
-            <p>$56,623.54</p>
-            <p class="font-light text-green-500">+1.45%</p>
-            <p>$880,423,640,582</p>
-        </div>
-        <div class="market-status-new-head-three  flex flex-row">
-            <img src="./assets/images/chart-1.svg" alt="">
-            
-        </div>
-    </div>
-    <div class="market-status-real-dtls  text-xl sm:w-full w-[1200px]  mt-[30px]  flex text-white font-bold flex-row justify-between items-center text-white  ">
-        <div class="market-status-new-head-one items-center market-status-new-head-one gap-3 sm:gap-10  flex flex-row ">
-           
-            <div class="coin-logo items-center gap-2 flex flex-row">
-                <img class="w-[30px]" src="./assets/images/coin-1.svg" alt="">
-                <p>Bitcoin</p>
-            </div>
-            
-        </div>
-        <div class="market-status-new-head-two gap-[90px]  flex flex-row">
-            <p>$56,623.54</p>
-            <p class="font-light text-green-500">+1.45%</p>
-            <p>$880,423,640,582</p>
-        </div>
-        <div class="market-status-new-head-three  flex flex-row">
-            <img src="./assets/images/chart-1.svg" alt="">
-            
-        </div>
     </div>
     
-</section>
-
-    <section class="bg-[#17181C] pb-[120px] px-3 py-3 process">
-        <div class="process-head pt-[80px] sm:pt-[150px]">
-            <h1 class="sm:text-8xl text-4xl py-4 text-white font-medium">How It Work</h1>
-            <p class="text-[#A2B5C3] sm:w-[450px] w-[380px] text-[16px] ">Stacks is a production-ready library of stackable content blocks built in React Native.</p>
-        </div>
-      <div id="process-part-mob" class="process-part flex sm:flex-row flex-col text-white pt-[60px]">
-            <div id="test" class="process-box ">
-               
-                <img class="w-[100px]" src="./assets/images/instruction-1.png" alt="">
-               
-                <p class="text-[15px] font-medium text-gray-400 ">Step 1</p>
-                <p class="font-bold text-2xl py-3">Download</p>
-              
+    <section class="market-update-status">
+    
+        <div class="market-update-status-nav">
+            <div class="market-head">
+                <h1>Market Update</h1>
+                <p>See All Coins</p>
             </div>
-            <div class="imgs">
-                <img class="hidder h-[80px]" src="./assets/images/—Pngtree—right pointing arrow icon design_4457073.png" alt="">
-                <img class="w-[50px] sm:hidden" src="./assets/images/mobile-arrow.png" alt="">
-            </div>
-            <div class="process-box ">
-                <img class="w-[100px]" src="./assets/images/instruction-2.png" alt="">
-                <p class="text-[15px] font-medium text-gray-400 ">Step 2</p>
-                <p class="font-bold text-2xl py-3">Connect Wallet</p>
-               
-            </div>
-            <img class="h-[80px] hidder" src="./assets/images/—Pngtree—right pointing arrow icon design_4457073.png" alt="">
-            <img class="w-[50px] sm:hidden" src="./assets/images/mobile-arrow.png" alt="">
-            <div class="process-box ">
-                <img class="w-[100px]" src="./assets/images/instruction-3.png" alt="">
-                <p class="text-[15px] font-medium text-gray-400 ">Step 3</p>
-                <p class="font-bold text-2xl py-3">Start Trading</p>
-               
-            </div>
-            <img class="h-[80px] hidder" src="./assets/images/—Pngtree—right pointing arrow icon design_4457073.png" alt="">
-            <img class="w-[50px] sm:hidden" src="./assets/images/mobile-arrow.png" alt="">
-            <div class="process-box ">
-                <img class="w-[100px] " src="./assets/images/instruction-4.png" alt="">
-                <p class="text-[15px] font-medium text-gray-400 ">Step 4</p>
-                <p class="font-bold text-2xl py-3">Earn Money</p>
+            <div class="market-main">
+                <div class="market-main-nav">
+                    <p class="market-text-selection market-text-one">View all</p>
+                    <p class="market-text-selection">Metaverse</p>
+                    <p class="market-text-selection">Entertainment</p>
+                    <p class="market-text-selection">Energy</p>
+                    <p class="market-text-selection">NFT</p>
+                    <p class="market-text-selection">Gaming</p>
+                    <p class="market-text-selection">Music</p>
+                </div>
+    
+                <div class="market-main-main-head">
+                    <p>Name</p>
+                    <div class="tester-one">
+                        <p>Last Price</p>
+                        <p>24h %</p>
+                        <p>Market Cap</p>
+                    </div>
+                    <div class="tester-two">
+                         <p>Last 7 Days</p>
+                    </div>
+                </div>
+    
                 
             </div>
             
-           
         </div>
-       <div class="process-lower text-white font-medium">
-        <button class="download-btn px-4 py-2">Download Now</button>
+        <div class="main-div">
+            
+            <div class="market-main-main-inside-box">
+                <div class="market-main-left">
+                    <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                    <p class="main-coin-name">Bitcoin</p>
+                    <p class="identity-coin">BTC</p>
+                </div>
+                <div class="market-middle">
+                    <p class="market-cap">$56,623.54</p>
+                    <p class="coin-cap">+1.45%</p>
+                    <p class="price-cap">$880,423,640,582</p>
+    
+                </div>
+                <img class="chart" src="./assets/images/chart-1.svg" alt="">
+            </div>
+            <div class="market-main-main-inside-box">
+                <div class="market-main-left">
+                    <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                    <p class="main-coin-name">Bitcoin</p>
+                    <p class="identity-coin">BTC</p>
+                </div>
+                <div class="market-middle">
+                    <p class="market-cap">$56,623.54</p>
+                    <p class="coin-cap">+1.45%</p>
+                    <p class="price-cap">$880,423,640,582</p>
+    
+                </div>
+                <img class="chart" src="./assets/images/chart-1.svg" alt="">
+            </div>
+            <div class="market-main-main-inside-box">
+                <div class="market-main-left">
+                    <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                    <p class="main-coin-name">Bitcoin</p>
+                    <p class="identity-coin">BTC</p>
+                </div>
+                <div class="market-middle">
+                    <p class="market-cap">$56,623.54</p>
+                    <p class="coin-cap">+1.45%</p>
+                    <p class="price-cap">$880,423,640,582</p>
+    
+                </div>
+                <img class="chart" src="./assets/images/chart-1.svg" alt="">
+            </div>
+            <div class="market-main-main-inside-box">
+                <div class="market-main-left">
+                    <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                    <p class="main-coin-name">Bitcoin</p>
+                    <p class="identity-coin">BTC</p>
+                </div>
+                <div class="market-middle">
+                    <p class="market-cap">$56,623.54</p>
+                    <p class="coin-cap">+1.45%</p>
+                    <p class="price-cap">$880,423,640,582</p>
+    
+                </div>
+                <img class="chart" src="./assets/images/chart-1.svg" alt="">
+            </div>
+            <div class="market-main-main-inside-box">
+                <div class="market-main-left">
+                    <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                    <p class="main-coin-name">Bitcoin</p>
+                    <p class="identity-coin">BTC</p>
+                </div>
+                <div class="market-middle">
+                    <p class="market-cap">$56,623.54</p>
+                    <p class="coin-cap">+1.45%</p>
+                    <p class="price-cap">$880,423,640,582</p>
+    
+                </div>
+                <img class="chart" src="./assets/images/chart-1.svg" alt="">
+            </div>
+            <div class="market-main-main-inside-box">
+                <div class="market-main-left">
+                    <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                    <p class="main-coin-name">Bitcoin</p>
+                    <p class="identity-coin">BTC</p>
+                </div>
+                <div class="market-middle">
+                    <p class="market-cap">$56,623.54</p>
+                    <p class="coin-cap">+1.45%</p>
+                    <p class="price-cap">$880,423,640,582</p>
+    
+                </div>
+                <img class="chart" src="./assets/images/chart-1.svg" alt="">
+            </div>
+            <div class="market-main-main-inside-box">
+                <div class="market-main-left">
+                    <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                    <p class="main-coin-name">Bitcoin</p>
+                    <p class="identity-coin">BTC</p>
+                </div>
+                <div class="market-middle">
+                    <p class="market-cap">$56,623.54</p>
+                    <p class="coin-cap">+1.45%</p>
+                    <p class="price-cap">$880,423,640,582</p>
+    
+                </div>
+                <img class="chart" src="./assets/images/chart-1.svg" alt="">
+            </div>
+            <div class="market-main-main-inside-box">
+                <div class="market-main-left">
+                    <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                    <p class="main-coin-name">Bitcoin</p>
+                    <p class="identity-coin">BTC</p>
+                </div>
+                <div class="market-middle">
+                    <p class="market-cap">$56,623.54</p>
+                    <p class="coin-cap">+1.45%</p>
+                    <p class="price-cap">$880,423,640,582</p>
+    
+                </div>
+                <img class="chart" src="./assets/images/chart-1.svg" alt="">
+            </div>
+            <div class="market-main-main-inside-box">
+                <div class="market-main-left">
+                    <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                    <p class="main-coin-name">Bitcoin</p>
+                    <p class="identity-coin">BTC</p>
+                </div>
+                <div class="market-middle">
+                    <p class="market-cap">$56,623.54</p>
+                    <p class="coin-cap">+1.45%</p>
+                    <p class="price-cap">$880,423,640,582</p>
+    
+                </div>
+                <img class="chart" src="./assets/images/chart-1.svg" alt="">
+            </div>
+            <div class="market-main-main-inside-box">
+                <div class="market-main-left">
+                    <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                    <p class="main-coin-name">Bitcoin</p>
+                    <p class="identity-coin">BTC</p>
+                </div>
+                <div class="market-middle">
+                    <p class="market-cap">$56,623.54</p>
+                    <p class="coin-cap">+1.45%</p>
+                    <p class="price-cap">$880,423,640,582</p>
+    
+                </div>
+                <img class="chart" src="./assets/images/chart-1.svg" alt="">
+            </div>
+            <div class="market-main-main-inside-box">
+                <div class="market-main-left">
+                    <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                    <p class="main-coin-name">Bitcoin</p>
+                    <p class="identity-coin">BTC</p>
+                </div>
+                <div class="market-middle">
+                    <p class="market-cap">$56,623.54</p>
+                    <p class="coin-cap">+1.45%</p>
+                    <p class="price-cap">$880,423,640,582</p>
+    
+                </div>
+                <img class="chart" src="./assets/images/chart-1.svg" alt="">
+            </div>
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+        <div class="market-main-main-inside-box">
+            <div class="market-main-left">
+                <img src="./assets/images/coin-1.svg" height="32" width="32" alt="">
+                <p class="main-coin-name">Bitcoin</p>
+                <p class="identity-coin">BTC</p>
+            </div>
+            <div class="market-middle">
+                <p class="market-cap">$56,623.54</p>
+                <p class="coin-cap">+1.45%</p>
+                <p class="price-cap">$880,423,640,582</p>
+    
+            </div>
+            <img class="chart" src="./assets/images/chart-1.svg" alt="">
+        </div>
+    
+    
+    
+    
+    
+    
         
-       </div>
     </section>
-<section class="whatis  bg-[#131315] px-5 py-5">
-<div class="whatis-main sm:flex  pt-[120px] text-white">
- <div class="whatis-banner">
-    <img class="sm:w-[1200px]" src="./assets/images/about-banner.png" alt="">
- </div>
-    <div class="whatis-tester-two">
-        <p class="text-4xl font-bold py-2">What Is Cryptex?</p>
-    <p class="text-[17px] font-medium text-gray-400 py-3">Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.</p>
-   <div class="whatis-test flex ">
-    <i class="fa-solid text-3xl fa-circle-check" style="color: #74C0FC;"></i>
-    <p class="text-2xl font-bold py-2">View real-time cryptocurrency prices</p>
-</div>
-    
-    <p class="text-[17px] font-medium text-gray-400 py-3">Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.</p>
-    <div class="whatis-test flex ">
-        <i class="fa-solid text-3xl fa-circle-check" style="color: #74C0FC;"></i>
-        <p class="text-2xl font-bold py-2">Buy and sell BTC, ETH, XRP, OKB, Etc...</p>
-    </div>
-    <p class="text-[17px] font-medium text-gray-400 py-3">Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.</p>
-    <button class="text-white bg-[#3874FF] px-5 rounded-lg py-3 mt-3">Explore More</button>
-    </div>
-</div>
 </section>
-<section class="download   bg-[#17181C] px-3 py-3">
-<div class="download-head  items-center
-px-5 py-5 sm:flex sm:justify-between text-white pt-[80px]">
-    <div class="whatis-tester-two">
-        <p class="text-4xl font-bold py-2">What Is Cryptex?</p>
-    <p class="text-[17px] font-medium text-gray-400 py-3">Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.</p>
-   <div class="whatis-test flex ">
-    <i class="fa-solid text-3xl fa-circle-check" style="color: #74C0FC;"></i>
-    <p class="text-2xl font-bold py-2">View real-time cryptocurrency prices</p>
-</div>
-    
-    <p class="text-[17px] font-medium text-gray-400 py-3">Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.</p>
-    <div class="whatis-test flex ">
-        <i class="fa-solid text-3xl fa-circle-check" style="color: #74C0FC;"></i>
-        <p class="text-2xl font-bold py-2">Buy and sell BTC, ETH, XRP, OKB, Etc...</p>
-    </div>
-    <p class="text-[17px] font-medium text-gray-400 py-3">Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.</p>
-   <div class="whatis-imgs flex gap-2 mt-5">
-    <img src="./assets/images/googleplay.png" alt="">
-    <img src="./assets/images/appstore.png" alt="">
+<section class="how">
+<div class="how-container">
+   <div class="how-text-section">
+    <p class="how-head">How It Work</p>
+    <p class="how-para">Stacks is a production-ready library of stackable content blocks built in React Native.</p>
    </div>
-   
-  
-</div>
-<div class="whatis-big-imgs">
-    <img class="mt-10 sm:w-[1350px]" src="./assets/images/app-banner.png" alt="">
-   </div>
-</section>
-<section>
-    
-
-<footer class="bg-white  shadow-sm  dark:bg-stone-900">
-    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://flowbite.com/" class="hover:underline">Cryptext™</a>. All Rights Reserved.
-    </span>
-    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-        <li>
-            <a href="#" class="hover:underline me-4 md:me-6">About</a>
-        </li>
-        <li>
-            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-        </li>
-        <li>
-            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
-        </li>
-        <li>
-            <a href="#" class="hover:underline">Contact</a>
-        </li>
-    </ul>
+   <div class="process-container">
+    <div class="process-box">
+        <img width="70" height="70" src="./assets/images/instruction-1.png" alt="">
+        <p class="step-text">Step 1</p>
+        <p class="download-btn">Download</p>
+        <p class="process-dtls">Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.</p>
     </div>
-</footer>
-
+    <img   class="connect-line" src="./assets/images/connect-line.png" alt="">
+    <div class="process-box">
+        <img width="70" height="70" src="./assets/images/instruction-2.png" alt="">
+        <p class="step-text">Step 1</p>
+        <p class="download-btn">Download</p>
+        <p class="process-dtls">Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.</p>
+    </div>
+    <img class="connect-line" src="./assets/images/connect-line.png" alt="">
+    <div class="process-box">
+        <img width="70" height="70" src="./assets/images/instruction-3.png" alt="">
+        <p class="step-text">Step 1</p>
+        <p class="download-btn">Download</p>
+        <p class="process-dtls">Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.</p>
+    </div>
+    <img class="connect-line" src="./assets/images/connect-line.png" alt="">
+    <div class="process-box">
+        <img width="70" height="70" src="./assets/images/instruction-4.png" alt="">
+        <p class="step-text">Step 1</p>
+        <p class="download-btn">Download</p>
+        <p class="process-dtls">Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.</p>
+    </div>
+   </div>
+</div>
 </section>
+<section class="whatis">
+    <div class="whatis-container">
+        <img src="./assets/images/about-banner.png" alt="">
+        <div class="whatis-text">
+            <p class="whatis-big-big">What Is Cryptex</p>
+            <p class="whatis-small">Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.</p>
+            
+            <div class="test-one">
+
+                <i class="fa-solid fa-circle-check" style="color: #4482ee;"></i>
+                <p class="whatis-big">View real-time cryptocurrency prices</p>
+            </div>
+            <p class="whatis-small">Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.</p>
+            <div class="test-two">
+                <i class="fa-solid fa-circle-check" style="color: #4482ee;"></i>
+                <p class="whatis-big">Buy and sell BTC, ETH, XRP, OKB, Etc...</p>
+            </div>
+            <p class="whatis-small">Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.</p>
+            <button class="blue-primary">Explore More</button>
+        </div>
+    </div>
+</section>
+
+<section class="intro">
+    <div class="intro-container">
+       <div class="intro-left">
+        <div class="whatis-text">
+            <p class="whatis-big-big">What Is Cryptex</p>
+            <p class="whatis-small">Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.</p>
+            
+            <div class="test-one">
+
+                <i class="fa-solid fa-circle-check" style="color: #4482ee;"></i>
+                <p class="whatis-big">View real-time cryptocurrency prices</p>
+            </div>
+            <p class="whatis-small">Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.</p>
+            <div class="test-two">
+                <i class="fa-solid fa-circle-check" style="color: #4482ee;"></i>
+                <p class="whatis-big">Buy and sell BTC, ETH, XRP, OKB, Etc...</p>
+            </div>
+            <p class="whatis-small">Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.</p>
+            <button class="blue-primary">Explore More</button>
+        </div>
+       </div>
+       <img src="./assets/images/app-banner.png" alt="">
+    </div>
+</section>
+<footer class="dev-footer">
+    <div class="footer-content">
+      <p>© <span id="year"></span> Cryptext. All rights reserved.</p>
+      <p>
+        Built with <span class="heart">♥</span> by 
+        <a href="https://yourportfolio.com" target="_blank">Ahon Moai</a>
+      </p>
+      <div class="footer-links">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
