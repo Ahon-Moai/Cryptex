@@ -830,6 +830,10 @@ color: white;
     .connect-line{
         display: none;
     }
+    #con{
+        padding-left: 20px;
+
+    }
     .intro-container{
         max-width: 100%;
         padding: 0 15px;
