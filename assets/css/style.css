@@ -821,6 +821,10 @@ color: white;
 }
 /* Process End */
 
+.imgs{
+    margin-top: 50px;
+    gap: 20px;
+}
 /* Media */
 
 @media (max-width:768px) {
